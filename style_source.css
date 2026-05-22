@@ -1,0 +1,77 @@
+/* Heading Style */
+h1{
+    color:purple;
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Body-Styling */
+body{
+    background: linear-gradient(to right, lightgreen);
+    padding:10px;
+    margin:10px;
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* The Containter Class */
+.container{
+    display:inline-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content:left;
+    flex-wrap:nowrap;
+    background-color:rgb(139, 216, 139);
+    border-radius:4px;
+    padding:2px;
+    gap:1px;
+    margin:auto;
+}
+
+/* The Items Class */
+.item{
+    display:inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:1px solid;
+    border-radius:4px;
+    background-color:rgb(209, 202, 216);
+    color:bisque;
+    text-align:center;
+    font-size:15px;
+}
+
+/* Link-Properties */
+a{
+    color:blue;
+    text-decoration: none;
+}
+a:hover{
+    color:purple;
+}
+
+/* Footer-for-About */
+footer {
+    display: inline-flex;
+    flex-direction: row;
+  color: rgb(103, 119, 190);
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 200px;
+  margin-left: 0x
+}
+
+/* Button-On-About */
+.myButton{
+    color:black;
+    background-color: aquamarine;
+}
