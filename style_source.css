@@ -16,11 +16,10 @@ body{
 .container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    flex-shrink: 0;
     align-items": center;
     overflow-x: hidden;
     justify-content: center;
+    gap: 10px;
 }
 
 /* The Items Class */
@@ -35,7 +34,6 @@ body{
     margin: 5px;
     padding: 0;
     width: 100px;
-    height: 10px;
 }
 
 /* Link-Properties */
