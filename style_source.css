@@ -34,7 +34,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin: 10;
-    padding: 10px;
+    padding: 5px;
     outline:1px solid;
     border-radius:4px;
     background-color:rgb(209, 202, 216);
