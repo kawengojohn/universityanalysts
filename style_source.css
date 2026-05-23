@@ -16,11 +16,8 @@ body{
 
 /* The Containter Class */
 .container{
-    display:inline-flex;
     display: flex;
-    flex-wrap: nowrap;
     flex-direction:row;
-    flex-wrap:nowrap;
     justify-content: center;
     background-color:rgb(139, 216, 139);
     border-radius:4px;
