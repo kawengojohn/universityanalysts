@@ -33,7 +33,7 @@ body{
     display:inline-block;
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 10;
     padding: 10px;
     outline:1px solid;
     border-radius:4px;
