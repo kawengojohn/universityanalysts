@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction:row;
     overflow-x: hidden;
-    justify-content: center;
+    justify-content: space-between;
     border-radius:4px;
     padding:2px;
     gap:10px;
