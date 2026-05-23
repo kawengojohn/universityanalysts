@@ -31,9 +31,6 @@ body{
 
 /* The Items Class */
 .item{
-    display:inline-block;
-    display: flex;
-    flex-wrap: wrap;
     margin: 10;
     padding: 5px;
     outline:1px solid;
