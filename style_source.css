@@ -7,7 +7,7 @@ h1{
 
 /* Body-Styling */
 body{
-    background: white;
+    background: linear-gradient(to left, skyblue);
     margin: 10px;
     padding: 10px;
     color: black;
