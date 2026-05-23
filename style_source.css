@@ -18,7 +18,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     flex-shrink: 0;
-    justify-content: center;
+    justify-content: left;
 }
 
 /* The Items Class */
