@@ -19,7 +19,6 @@ body{
     display: flex;
     flex-direction:row;
     justify-content: center;
-    background-color:rgb(139, 216, 139);
     border-radius:4px;
     padding:2px;
     gap:70px;
