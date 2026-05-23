@@ -23,17 +23,16 @@ body{
 
 /* The Items Class */
 .item{
-    display:inline-block;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10;
-    padding: 0;
-    outline:1px solid;
-    border-radius:4px;
-    background-color:rgb(209, 202, 216);
-    color:bisque;
-    text-align:center;
-    font-size:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+    outline: solid 2px;
+    margin: 10px;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 /* Link-Properties */
