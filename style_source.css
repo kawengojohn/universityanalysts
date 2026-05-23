@@ -21,7 +21,7 @@ body{
     flex-wrap: nowrap;
     flex-direction:row;
     flex-wrap:nowrap;
-    justfy-content: center;
+    justify-content: center;
     background-color:rgb(139, 216, 139);
     border-radius:4px;
     padding:2px;
