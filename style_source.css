@@ -47,8 +47,8 @@ a:hover{
     color:purple;
 }
 
-/* Button-On-About */
-.myButton{
-    color:black;
-    background-color: aquamarine;
+/* button-to-email */
+.mail_btn{
+    background-color: lightgreen;
+    border-color: bisque;
 }
