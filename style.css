@@ -56,13 +56,13 @@ footer{
     margin:auto;
 }
 .soon{
-    height: 250px;
-    width: 80px;
+    height: 150px;
+    width: 120px;
     font-weight: bold;
     color: black;
-    border: 5px solid orchid;
+    border: 5px solid rgb(86, 84, 192);
     border-radius: 4px;
-    background-color: blueviolet;
+    background-color: rgb(76, 93, 170);
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -73,7 +73,6 @@ footer{
     translate: -50% -50%;
     z-index: 10;
     animation: 8s soon linear infinite;
-}
 @keyframes soon{
     0%{
     }
