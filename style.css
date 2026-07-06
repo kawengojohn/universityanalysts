@@ -73,10 +73,11 @@ footer{
     translate: -50% -50%;
     z-index: 10;
     animation: 8s soon linear infinite;
+}
 @keyframes soon{
     0%{
     }
-    100%{
+    75%{
         scale: 2;
     }
 }
