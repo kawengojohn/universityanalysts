@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(to right, rgb(106, 132, 167), rgb(196, 151, 196));
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    gap: 10px;
+}
+.card{
+    background: yellowgreen;
+    width: 100px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 0 0 12px 12px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+}
+.upper_page{
+    margin: 10px 0 10px 0;
+}
+.card img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+.heading{
+    margin: 0;
+}
+.main{
+    margin: 20px 0 20px 0;
+}
+.for-more{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.footer{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.YouTube{
+    color: rgb(197, 69, 69);
+}
+.Instagram{
+    color: rgb(207, 89, 52);
+}
+.Facebook{
+    color: blue;
+}
+.TikTok{
+    color: black;
+}
