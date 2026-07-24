@@ -1,6 +1,11 @@
 body{
     background: linear-gradient(to right, rgb(106, 132, 167), rgb(196, 151, 196));
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
 }
 .container{
     display: flex;
@@ -22,10 +27,12 @@ nav{
     display: flex;
     flex-direction: row;
     list-style: none;
+    padding-bottom: 10px;
     gap: 15px;
 }
 .upper_page{
     margin: 10px 0 10px 0;
+    text-align: center;
 }
 .card img{
     object-fit: cover;
@@ -60,4 +67,7 @@ nav{
 }
 .TikTok{
     color: black;
+}
+.rights{
+    text-align: center;
 }
