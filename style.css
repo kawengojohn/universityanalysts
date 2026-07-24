@@ -32,7 +32,7 @@ nav{
 }
 .upper_page{
     margin: 10px 0 10px 0;
-    text-align: center;
+    text-align: left;
 }
 .card img{
     object-fit: cover;
