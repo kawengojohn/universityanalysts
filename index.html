@@ -10,10 +10,20 @@
     <div class="header">
         <nav>
             <li>University Analysts</li>
+            <li>
+                <select id="others">
+                    <option value="">Select University</option>
+                    <option value="ua_unza_struct.html">University of Zambia</option>
+                    <option value="ua_knu_struct.html">Copperbelt University</option>
+                    <option value="ua_cavendish_struct.html">Cavendish University</option>
+                </select>
+            </li>
         </nav>
     </div>
     <div style="text-align: center;">Your Gateway to Higher Education in Zambia</div>
-    <div class="upper_page">Explore university information, study resources, and academic guidance from universities across Zambia. Select a University to get started.</div>
+    <div class="upper_page">Explore university information, study resources, and academic guidance from universities across Zambia. For institutions not displayed below, use the dropdown menu in the top-right corner of our page. Select a University to get started.</div>
+    <div class="for-more-unis">
+    </div>
     <div class="main">
         <div class="container">
             <div class="card" onclick="window.location.href='ua_unza_struct.html'" target="_blank">
@@ -75,5 +85,6 @@
     <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
     <p class="rights">&copy; 2026 University Analysts. All Rights Reserved.</p>
+    <script src="script.js"></script>
 </body>
 </html>
