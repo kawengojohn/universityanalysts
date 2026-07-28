@@ -6,6 +6,18 @@ nav{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    padding-bottom: 10px;
+    gap: 15px;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.others{
+    background: rgb(21, 73, 133);
 }
 .container{
     display: flex;
@@ -22,13 +34,6 @@ nav{
     text-align: center;
     font-size: 10px;
     border-radius: 0 0 12px 12px;
-}
-nav{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding-bottom: 10px;
-    gap: 15px;
 }
 .upper_page{
     margin: 10px 0 10px 0;
