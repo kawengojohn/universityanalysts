@@ -16,6 +16,13 @@ nav{
 nav li:first-child{
     margin-right: auto;
 }
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
 .others{
     background: rgb(21, 73, 133);
 }
